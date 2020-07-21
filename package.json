@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path scss scss/main.scss dist/css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run sass\""
+  },
+  "author": "Vandana",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
